@@ -1,11 +1,11 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import project1 from "../assets/projects/travel-and-tour-project.png";
+import project2 from "../assets/projects/restaurant-project.png";
+import project3 from "../assets/projects/online-bookstore-project.png";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications. With 13 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, GraphQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate front end developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, GraphQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `Front End Leaning Developer with over 13 years of experience, specializing in React JS and Node.js to build high-performance, user- centered applications across platforms. Known for strong communication, leadership in team onboarding, and a commitment to development quality through TDD, agile practices, and modern tech stacks like Redux, GraphQL, and AWS. Outside of coding, I am Dungeons and Dragons enthusiast. I also enjoy all types of partner dancing.`;
+export const ABOUT_TEXT = `Front End Developer with over 13 years of experience, specializing in React JS and Node.js to build high-performance, user-centered applications across platforms. Known for strong communication, leadership in team onboarding, and a commitment to development quality through TDD, agile practices, and modern tech stacks like Redux, GraphQL, and AWS. Outside of coding, I am Dungeons and Dragons enthusiast. I also enjoy all types of partner dancing.`;
 
 export const EXPERIENCES = [
   {
@@ -40,25 +40,28 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Travel and Tour Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    link: "https://travel-and-tour-nicolas-dev.netlify.app/",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Task Management App",
+    title: "Restaurant Website",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    link: "https://restaurant-nicolas-dev.netlify.app/",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
-    title: "Portfolio Website",
+    title: "Bookstore Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    link: "https://online-book-store-nicolas-dev.netlify.app/",
+    technologies: ["HTML", "CSS", "React", "Tailwind"],
   },
   {
     title: "Blogging Platform",
