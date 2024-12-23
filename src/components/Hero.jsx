@@ -49,6 +49,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1.2 }}
             src={profilePic}
             alt="Nicolas Berrizbeitia"
+            className="rounded-2xl"
           />
         </div>
       </div>
